@@ -1,0 +1,87 @@
+{
+  "name": "Tienda de Enrique Tierno Galván",
+  "productsById": {
+    "1": {
+      "id": 1,
+      "name": "Tornillo largo",
+      "price": 2.50,
+      "tags": [
+        "Ferretería",
+        "Tornillo"
+      ]
+    },
+    "2": {
+      "id": 2,
+      "name": "Tuerca pequeña",
+      "price": 1.50,
+      "tags": [
+        "Ferretería",
+        "Tuerca"
+      ]
+    }
+  },
+  "customers": [
+    {
+      "nif": "1X",
+      "name": "Bob",
+      "surname": "Esponja",
+      "orders": [
+        {
+          "id": 1,
+          "date": "2024/01/01",
+          "price": 255.50,
+          "items": [
+            {
+              "productId": 1,
+              "amount": 101
+            },
+            {
+              "productId": 2,
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "date": "2024/01/02",
+          "price": 2.50,
+          "items": [
+            {
+              "productId": 1,
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nif": "2X",
+      "name": "Peppa",
+      "surname": "Pig",
+      "orders": [
+        {
+          "id": 3,
+          "date": "2023/01/01",
+          "price": 25.00,
+          "items": [
+            {
+              "productId": 1,
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "date": "2025/01/02",
+          "price": 15.00,
+          "items": [
+            {
+              "productId": 2,
+              "amount": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
